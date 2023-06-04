@@ -114,8 +114,8 @@ table5 = pd.crosstab([data['team'], data['draft_value']],
 #converted the table to an excel file and exported it to my computer
 table5.to_csv(r"C:/Users/Naysha/Desktop/Internship/table5.csv")
 
-#underperformed: NOK, NOP, CHO
-#overperformed: CHA, VAN, WSB
+#underperformed: CHO, NOP, NOK
+#overperformed: MIL, CHI, SEA
 
 #created a trivariate frequency table that showed the college team, draft value, and performance based on win shares
 table6 = pd.crosstab([data['college'], data['draft_value']],
